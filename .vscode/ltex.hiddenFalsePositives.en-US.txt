@@ -1,0 +1,3 @@
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qdata-structures-and-algorithms\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qcode-challenges\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QWrite a function called reverseArray which takes an array as an argument.\\E$"}
