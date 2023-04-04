@@ -2,10 +2,10 @@
 
 ## ***Table of Contents***
 
-- [Description] (#description)
+- [Description](#description)
 - [Challenges Table](#code-challenges)
 
-## Description
+## ***Description***
 
 This where you can find my solutions for Code 401 - Advanced Software Development CC's.
 
