@@ -1,6 +1,7 @@
 # Code Challenge: Class 01
 
 Write out code as part of your whiteboard process.
+
 Write a function called reverseArray which takes an array as an argument. Without utilizing any of the built-in methods available to your language, return an array with elements in reversed order.
 
 ## Whiteboard Process
@@ -18,3 +19,5 @@ The space complexity is O(1): it only uses a few constant-sized variables to per
 ## Solution
 <!-- Show how to run your code, and examples of it in action -->
 For later.
+
+[Move to CC 02](../array_insert_shift/README.md) | [Previous](../README.md)
