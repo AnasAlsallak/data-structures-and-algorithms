@@ -50,4 +50,4 @@ def test_reverse_array():
 
     print("All test cases pass")
 
-    test_reverse_array()
+test_reverse_array()
