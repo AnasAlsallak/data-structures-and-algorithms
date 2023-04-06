@@ -10,7 +10,7 @@ Write a function called insertShiftArray which takes in an array and a value to 
 
 ## Approach & Efficiency
 
-Loops, indexes.
+Loops, indexes, conditions.
 
 Time complexity is O(l): this is because in the worst case scenario, we need to iterate over every element in the input array, and perform a constant number of operations (either appending the current value in i_arr or the new value val) for each iteration.
 Space complexity is O(n): since the output array o_arr could potentially be the same size as the input array i_arr plus one additional element.
