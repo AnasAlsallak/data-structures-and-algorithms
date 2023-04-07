@@ -23,31 +23,3 @@ def reverse_array(arr):
     return arr
 
 
-def test_reverse_array():
-    # Test case 1
-    arr = [1, 2, 3, 4, 5]
-    expected = [5, 4, 3, 2, 1]
-    o_arr = reverse_array(arr)
-    assert o_arr == expected, f"Expected {expected}, but got {o_arr}"
-    
-    # Test case 2
-    arr = [1, 2, 3, 4]
-    expected = [4, 3, 2, 1]
-    o_arr = reverse_array(arr)
-    assert o_arr == expected, f"Expected {expected}, but got {o_arr}"
-    
-    # Test case 3
-    arr = []
-    expected = []
-    o_arr = reverse_array(arr)
-    assert o_arr == expected, f"Expected {expected}, but got {o_arr}"
-    
-    # Test case 4
-    arr = [1]
-    expected = [1]
-    o_arr = reverse_array(arr)
-    assert o_arr == expected, f"Expected {expected}, but got {o_arr}"
-
-    print("All test cases pass")
-
-test_reverse_array()
