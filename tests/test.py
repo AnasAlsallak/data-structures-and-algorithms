@@ -1,6 +1,9 @@
 import pytest
 from arrayInsertShift import insertShiftArray
 from arrayReverse import reverse_array
+from arrayBinarySearch import binary_search
+
+## first cc
 
 def test_insertShiftArray():
     # Test case 1
@@ -31,6 +34,8 @@ def test_insertShiftArray():
     o_arr = insertShiftArray(i_arr, val)
     assert o_arr == expected, f"Expected {expected}, but got {o_arr}"
 
+## second cc
+
 def test_reverse_array():
     # Test case 1
     arr = [1, 2, 3, 4, 5]
@@ -55,5 +60,48 @@ def test_reverse_array():
     expected = [1]
     o_arr = reverse_array(arr)
     assert o_arr == expected, f"Expected {expected}, but got {o_arr}"
+
+## third cc
+
+def test_existing_target():
+    arr = [2, 4, 6, 8, 10]
+    target = 4
+    assert binary_search(arr, target) == 1
+
+def test_non_existing_target():
+    arr = [2, 4, 6, 8, 10]
+    target = 5
+    assert binary_search(arr, target) == -1
+
+def test_empty_array():
+    arr = []
+    target = 5
+    assert binary_search(arr, target) == -1
+
+def test_single_element_array():
+    arr = [7]
+    target = 7
+    assert binary_search(arr, target) == 0
+
+def test_target_at_leftmost_index():
+    arr = [1, 3, 5, 7, 9]
+    target = 1
+    assert binary_search(arr, target) == 0
+
+def test_target_at_rightmost_index():
+    arr = [1, 3, 5, 7, 9]
+    target = 9
+    assert binary_search(arr, target) == 4
+
+def test_duplicate_target():
+    arr = [2, 4, 6, 6, 6, 8, 10]
+    target = 6
+    assert binary_search(arr, target) == 3
+
+def test_large_input():
+    arr = list(range(100000))
+    target = 98765
+    assert binary_search(arr, target) == 98765
+
 
     
