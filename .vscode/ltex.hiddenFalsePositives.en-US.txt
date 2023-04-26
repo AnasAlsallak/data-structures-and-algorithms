@@ -1,14 +1,4 @@
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qdata-structures-and-algorithms\\E$"}
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qcode-challenges\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QWrite a function called reverseArray which takes an array as an argument.\\E$"}
-{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qincludes Arguments: value Returns: Boolean Indicates whether that value exists as a Node's value somewhere within the list.\\E$"}
-{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qto string Arguments: none Returns: a string representing all the values in the Linked List, formatted as: \"{ a } -> { b } -> { c } -> NULL\"\\E$"}
-{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Qto string Arguments: none Returns: a string representing all the values in the Linked List, formatted as: \"{ a } -> { b } -> { c } -> NULL\"\\E$"}
-{"rule":"ARROWS","sentence":"^\\Qto string Arguments: none Returns: a string representing all the values in the Linked List, formatted as: \"{ a } -> { b } -> { c } -> NULL\"\\E$"}
-{"rule":"MASS_AGREEMENT","sentence":"^\\QNode\nCreate a Node class that has properties for the value stored in the Node, and a pointer to the next Node.\\E$"}
-{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qincludes\nArguments: value\nReturns: Boolean -Indicates whether that value exists as a Node's value somewhere within the list.\\E$"}
-{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qto string\nArguments: none\nReturns: a string representing all the values in the Linked List, formatted as: \"{ a } -> { b } -> { c } -> NULL\"\\E$"}
-{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Qto string\nArguments: none\nReturns: a string representing all the values in the Linked List, formatted as: \"{ a } -> { b } -> { c } -> NULL\"\\E$"}
-{"rule":"ARROWS","sentence":"^\\Qto string\nArguments: none\nReturns: a string representing all the values in the Linked List, formatted as: \"{ a } -> { b } -> { c } -> NULL\"\\E$"}
-{"rule":"THE_SUPERLATIVE","sentence":"^\\QTime Complexity: Best Case: O(1) (when appending to an empty list) Worst Case: O(n) (when appending to a list with n nodes)\\E$"}
-{"rule":"THE_SUPERLATIVE","sentence":"^\\QTime Complexity: Best Case: O(1) (when inserting at the beginning of the linked list) Worst Case: O(n) (when inserting at the end of the linked list or when the target value is in the middle of the linked list) Space Complexity: O(1) - the algorithm uses a constant amount of extra space to insert a node, regardless of the size of the linked list.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qkth from end\\E$"}
