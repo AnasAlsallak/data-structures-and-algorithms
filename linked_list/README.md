@@ -62,6 +62,6 @@ The space complexity is O(n), because we are creating a new string that is as lo
 
 ## Solution
 
-![Run](../assets/run3.jpg "run")
+![Run](../assets/run5.JPG "run")
 
 [Previous](../array_insert_shift/README.md)
