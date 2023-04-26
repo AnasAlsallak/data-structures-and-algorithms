@@ -10,3 +10,5 @@
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qto string\nArguments: none\nReturns: a string representing all the values in the Linked List, formatted as: \"{ a } -> { b } -> { c } -> NULL\"\\E$"}
 {"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Qto string\nArguments: none\nReturns: a string representing all the values in the Linked List, formatted as: \"{ a } -> { b } -> { c } -> NULL\"\\E$"}
 {"rule":"ARROWS","sentence":"^\\Qto string\nArguments: none\nReturns: a string representing all the values in the Linked List, formatted as: \"{ a } -> { b } -> { c } -> NULL\"\\E$"}
+{"rule":"THE_SUPERLATIVE","sentence":"^\\QTime Complexity: Best Case: O(1) (when appending to an empty list) Worst Case: O(n) (when appending to a list with n nodes)\\E$"}
+{"rule":"THE_SUPERLATIVE","sentence":"^\\QTime Complexity: Best Case: O(1) (when inserting at the beginning of the linked list) Worst Case: O(n) (when inserting at the end of the linked list or when the target value is in the middle of the linked list) Space Complexity: O(1) - the algorithm uses a constant amount of extra space to insert a node, regardless of the size of the linked list.\\E$"}

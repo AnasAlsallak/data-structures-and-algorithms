@@ -18,6 +18,10 @@ Space complexity is O(1) because it uses a constant amount of additional space f
 
 ## Solution
 
+[Code](../arrayBinarySearch.py)
+
+[Tests](../tests/test.py)
+
 ![Run](../assets/run3.jpg "run")
 
-[Previous](../array_insert_shift/README.md)
+[Move to CC 05](../linked_list/README.md) | [Previous](../array_insert_shift/README.md)

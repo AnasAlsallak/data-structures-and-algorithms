@@ -18,6 +18,10 @@ In the special case where i_arr is an empty array, the function would append the
 
 ## Solution
 
+[Code](../arrayInsertShift.py)
+
+[Tests](../tests/test.py)
+
 ![Run](../assets/run.jpg "run").
 
-[Previous](../array_reverse/README.md)
+[Move to CC 03](../array_binary_search/README.md) | [Previous](../array_reverse/README.md)

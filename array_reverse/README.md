@@ -17,7 +17,11 @@ The time complexity is O(arr_len):because the function iterates through only the
 The space complexity is O(1): it only uses a few constant-sized variables to perform the array reversal.
 
 ## Solution
-<!-- Show how to run your code, and examples of it in action -->
-For later.
+
+[Code](../arrayReverse.py)
+
+[Tests](../tests/test.py)
+
+![Run0](../assets/run0.jpg "run0").
 
 [Move to CC 02](../array_insert_shift/README.md) | [Previous](../README.md)
