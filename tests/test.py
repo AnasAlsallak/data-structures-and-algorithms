@@ -2,6 +2,7 @@ import pytest
 from arrayInsertShift import insertShiftArray
 from arrayReverse import reverse_array
 from arrayBinarySearch import binary_search
+from linkedList import LinkedList
 
 ## first cc
 
@@ -102,6 +103,38 @@ def test_large_input():
     arr = list(range(100000))
     target = 98765
     assert binary_search(arr, target) == 98765
+
+## fifth cc
+
+def test_linked_list():
+    # Test empty linked list
+    ll = LinkedList()
+    assert ll.length == 0
+    assert ll.to_string() == "NONE"
+
+    # Test insert into linked list
+    ll.insert(10)
+    assert ll.length == 1
+    assert ll.to_string() == "{ 10 } -> NONE"
+
+    # Test head property points to first node
+    assert ll.head.value == 10
+
+    # Test insert multiple nodes
+    ll.insert(20)
+    ll.insert(30)
+    assert ll.length == 3
+    assert ll.to_string() == "{ 30 } -> { 20 } -> { 10 } -> NONE"
+
+    # Test finding value in linked list
+    assert ll.includes(20) == True
+    assert ll.includes(40) == False
+
+    # Test returning collection of all values
+    values = ll.get_values()
+    assert values == [30, 20, 10]
+
+
 
 
     
