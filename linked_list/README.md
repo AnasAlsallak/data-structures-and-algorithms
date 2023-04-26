@@ -62,6 +62,10 @@ The space complexity is O(n), because we are creating a new string that is as lo
 
 ## Solution
 
+[Code](../linkedList.py)
+
+[Tests](../tests/test.py)
+
 ![Run](../assets/run5.JPG "run")
 
-[Previous](../array_insert_shift/README.md)
+[Move to CC 06](../linked_list_insertions/README.md) | [Previous](../array_insert_shift/README.md)

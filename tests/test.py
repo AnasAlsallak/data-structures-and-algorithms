@@ -3,6 +3,7 @@ from arrayInsertShift import insertShiftArray
 from arrayReverse import reverse_array
 from arrayBinarySearch import binary_search
 from linkedList import LinkedList
+from linkedListInsertions import LinkedList
 
 ## first cc
 
@@ -133,6 +134,59 @@ def test_linked_list():
     # Test returning collection of all values
     values = ll.get_values()
     assert values == [30, 20, 10]
+
+## sixth cc 
+
+def test_append():
+    ll = LinkedList()
+    assert ll.length == 0
+    ll.append(1)
+    assert ll.length == 1
+    assert ll.head.value == 1
+    ll.append(2)
+    assert ll.length == 2
+    assert ll.head.next.value == 2
+    ll.append(3)
+    assert ll.length == 3
+    assert ll.head.next.next.value == 3
+
+
+def test_insert_before_middle():
+    ll = LinkedList()
+    ll.append(1)
+    ll.append(2)
+    ll.append(3)
+    ll.insert_before(2, "new_value")
+    assert ll.head.next.value == "new_value"
+    assert ll.head.next.next.value == 2
+
+
+def test_insert_before_first():
+    ll = LinkedList()
+    ll.append(1)
+    ll.insert_before(1, "new_value")
+    assert ll.head.value == "new_value"
+    assert ll.head.next.value == 1
+
+
+def test_insert_after_middle():
+    ll = LinkedList()
+    ll.append(1)
+    ll.append(2)
+    ll.append(3)
+    ll.insert_after(2, "new_value")
+    assert ll.head.next.next.value == "new_value"
+    assert ll.head.next.next.next.value == 3
+
+
+def test_insert_after_last():
+    ll = LinkedList()
+    ll.append(1)
+    ll.append(2)
+    ll.insert_after(2, "new_value")
+    assert ll.head.next.next.value == "new_value"
+    assert ll.head.next.next.next is None
+
 
 
 
