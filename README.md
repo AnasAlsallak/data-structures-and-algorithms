@@ -16,7 +16,6 @@ This where you can find my solutions for Code 401 - Advanced Software Developmen
 | CC 01     | [CC 01](./array_reverse/README.md) |
 | CC 02     | [CC 02](./array_insert_shift/README.md) |
 | CC 03     | [CC 03](./array_binary_search/README.md) |
-| CC 05     | [CC 05](./array_binary_search/README.md) |
 
 > **Note:** This main page will be updated accordingly.
 
