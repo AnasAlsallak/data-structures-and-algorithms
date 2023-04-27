@@ -9,7 +9,7 @@ class Node:
     def __init__(self, value):
         self.value = value
         self.next: Union[Node, None] = None
-        self.count = 0
+        self.length = 0
 
 class LinkedList:
     """
@@ -23,8 +23,6 @@ class LinkedList:
     def __init__(self):
         self.head = None
         self.length = 0
-
-    count = 0    
 
     def __str__(self):
         return self.to_string()
@@ -176,3 +174,37 @@ class LinkedList:
         self.length += 1
 
 
+    def kthFromEnd(self, k):
+        """
+        Return the value of the kth node from the end of the linked list.
+
+        Args:
+            k (int): The index of the node to return from the end of the list.
+
+        Returns:
+            The value of the kth node from the end of the linked list.
+
+        Raises:
+            ValueError: If k is greater than or equal to the length of the linked list, or if k is negative.
+            IndexError: If the linked list is empty.
+        """
+        if self.head is None:
+            raise IndexError("Linked list is empty")
+
+        if k < 0 or k >= self.length :
+            raise ValueError("k must be a positive integer less than the length of the linked list")
+
+        if self.length == 1:
+            return self.head.value
+
+        pointer_one = self.head
+        pointer_two = self.head
+
+        for i in range(k):
+            pointer_two = pointer_two.next
+
+        while pointer_two.next is not None:
+            pointer_one = pointer_one.next
+            pointer_two = pointer_two.next
+
+        return pointer_one.value

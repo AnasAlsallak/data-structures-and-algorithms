@@ -4,6 +4,7 @@ from arrayReverse import reverse_array
 from arrayBinarySearch import binary_search
 from linkedList import LinkedList
 from linkedListInsertions import LinkedList
+from linkedListKth import LinkedList
 
 ## first cc
 
@@ -187,8 +188,48 @@ def test_insert_after_last():
     assert ll.head.next.next.value == "new_value"
     assert ll.head.next.next.next is None
 
+## 7th cc
 
+def test_kthFromEnd_when_k_is_greater_than_length():
+    ll = LinkedList()
+    ll.append(1)
+    ll.append(2)
+    ll.append(3)
+    with pytest.raises(ValueError):
+        ll.kthFromEnd(4)
 
+def test_kthFromEnd_when_k_is_negative():
+    ll = LinkedList()
+    ll.append(1)
+    ll.append(2)
+    ll.append(3)
+    with pytest.raises(ValueError):
+        ll.kthFromEnd(-1)
 
+def test_kthFromEnd_when_linked_list_is_empty():
+    ll = LinkedList()
+    with pytest.raises(IndexError):
+        ll.kthFromEnd(0)
 
-    
+def test_kthFromEnd_when_k_is_zero():
+    ll = LinkedList()
+    ll.append(1)
+    ll.append(2)
+    ll.append(3)
+    assert ll.kthFromEnd(0) == 3
+
+def test_kthFromEnd_when_k_is_equal_to_length():
+    ll = LinkedList()
+    ll.append(1)
+    ll.append(2)
+    ll.append(3)
+    assert ll.kthFromEnd(2) == 1
+
+def test_kthFromEnd_when_k_is_in_the_middle():
+    ll = LinkedList()
+    ll.append(1)
+    ll.append(2)
+    ll.append(3)
+    ll.append(4)
+    ll.append(5)
+    assert ll.kthFromEnd(2) == 3

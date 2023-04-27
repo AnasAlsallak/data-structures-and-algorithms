@@ -66,4 +66,4 @@ O(1) - the algorithm uses a constant amount of extra space to insert a node, reg
 
 ![Run](../assets/run6.JPG "run")
 
-[Move to CC 07](..//README.md) | [Previous](../linked_list/README.md)
+[Move to CC 07](../linked_list_kth/README.md) | [Previous](../linked_list/README.md)
