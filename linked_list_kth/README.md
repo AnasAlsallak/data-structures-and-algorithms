@@ -32,4 +32,4 @@ Space complexity: O(1) The algorithm requires a constant amount of extra space, 
 
 ![Run](../assets/run7.JPG "run")
 
-[Move to CC 08](..//README.md) | [Previous](../linked_list_insertions/README.md)
+[Move to CC 08](../linked_list_zip/README.md) | [Previous](../linked_list_insertions/README.md)
