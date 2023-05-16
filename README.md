@@ -18,6 +18,7 @@ This where you can find my solutions for Code 401 - Advanced Software Developmen
 | CC 03     | [CC 03](./array_binary_search/README.md) |
 | CC 05     | [CC 05](./linked_list/README.md) |
 | CC 06     | [CC 06](./linked_list_insertions/README.md) |
+| CC 08     | [CC 08](./linked_list_zip/README.md) |
 
 > **Note:** This main page will be updated accordingly.
 
