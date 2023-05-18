@@ -19,7 +19,12 @@ This where you can find my solutions for Code 401 - Advanced Software Developmen
 | CC 05     | [CC 05](./linked_list/README.md) |
 | CC 06     | [CC 06](./linked_list_insertions/README.md) |
 | CC 08     | [CC 08](./linked_list_zip/README.md) |
-| CC 10     | [CC 10](./linked_list_zip/README.md) |
+| CC 10     | [CC 10](./stack_and_queue/README.md) |
+| CC 11     | [CC 11](.//README.md) |
+| CC 12     | [CC 12](.//README.md) |
+| CC 13     | [CC 13](.//README.md) |
+| CC 14     | [CC 14](.//README.md) |
+| CC 15     | [CC 15](.//README.md) |
 
 > **Note:** This main page will be updated accordingly.
 
