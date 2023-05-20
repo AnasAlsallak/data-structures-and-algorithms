@@ -33,4 +33,4 @@ The space complexity is O(1) since it uses a constant amount of additional space
 
 ![Run](../assets/run8.JPG "run")
 
-[Move to CC 10](../stack_and_queue/README.md) | [Previous](../linked_list_kth/README.md)
+[Move to CC 09](..//README.md) | [Previous](../linked_list_kth/README.md)

@@ -82,4 +82,4 @@ You have access to the Node class and all the properties on the Linked List clas
 
 ![Run](../assets/run9.JPG "run")
 
-[Move to CC 11](../stack_queue_pseudo/README.md) | [Previous](../linked_list_zip/README.md)
+[Move to CC 11](..//README.md) | [Previous](../linked_list_zip/README.md)
