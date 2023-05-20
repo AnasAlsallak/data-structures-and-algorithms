@@ -19,26 +19,9 @@ Methods:
 
 ## Approach & Efficiency
 
-**Stack:**
+The time complexity of the enqueue and dequeue operations in this implementation is O(n), where n is the number of elements in the PseudoQueue. This is because in the enqueue operation, we need to move all elements from stack1 to stack2 (n operations), and in the dequeue operation, we simply pop from stack1 (1 operation). The while loops for moving elements between the stacks contribute to the linear time complexity.
 
-    - Using a singly linked list as the underlying data structure can provide an efficient implementation for the Stack class.
-    - Time complexity:
-        - Push operation: O(1) - Since the new element is added to the top of the stack, it can be done in constant time.
-        - Pop operation: O(1) - Removing the top element of the stack can also be done in constant time.
-        - Peek operation: O(1) - Accessing the top element without removing it is a constant-time operation.
-        - Is empty operation: O(1) - Checking if the stack is empty can be done in constant time.
-    - Space complexity:
-        The space complexity for a stack implemented using a linked list is O(n), where n is the number of elements in the stack.
-**Queue:**
-
-    - Similarly, a singly linked list can be used as the underlying data structure for implementing the Queue class.
-    - Time complexity:
-        - Enqueue operation: O(1) - Adding an element to the back of the queue can be done in constant time.
-        - Dequeue operation: O(1) - Removing the front element of the queue can also be done in constant time.
-        - Peek operation: O(1) - Accessing the front element without removing it is a constant-time operation.
-        - Is empty operation: O(1) - Checking if the queue is empty can be done in constant time.
-    - Space complexity:
-        - The space complexity for a queue implemented using a linked list is O(n), where n is the number of elements in the queue.
+The space complexity of the PseudoQueue implementation is O(n), where n is the number of elements in the PseudoQueue. This is because we are using two Stack objects, stack1 and stack2, to simulate the queue behavior. The space required will grow linearly with the number of elements in the PseudoQueue.
 
 ## Solution
 

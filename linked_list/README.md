@@ -68,4 +68,4 @@ The space complexity is O(n), because we are creating a new string that is as lo
 
 ![Run](../assets/run5.JPG "run")
 
-[Move to CC 06](../linked_list_insertions/README.md) | [Previous](../array_insert_shift/README.md)
+[Move to CC 06](../linked_list_insertions/README.md) | [Previous](../array_binary_search/README.md)
