@@ -25,11 +25,11 @@ If a cat or dog isn’t preferred, return whichever animal has been waiting in t
 
 ## Approach & Efficiency
 
-Using of the stack class and its methods, conditionals, loops and exceptions.
+Using of the deque class and its methods, conditionals, loops.
 
-The time complexity of the enqueue and dequeue operations in this implementation is O(n), where n is the number of elements in the PseudoQueue. This is because in the enqueue operation, we need to move all elements from stack1 to stack2 (n operations), and in the dequeue operation, we simply pop from stack1 (1 operation). The while loops for moving elements between the stacks contribute to the linear time complexity.
+In both methods, the time complexity is O(1) because the operations performed, such as appending to a deque, comparing timestamps, and removing elements, have constant time complexities.
 
-The space complexity of the PseudoQueue implementation is O(n), where n is the number of elements in the PseudoQueue. This is because we are using two Stack objects, stack1 and stack2, to simulate the queue behavior. The space required will grow linearly with the number of elements in the PseudoQueue.
+The space complexity is also O(1) as the amount of additional space used does not depend on the input size and remains constant.
 
 ## Solution
 
