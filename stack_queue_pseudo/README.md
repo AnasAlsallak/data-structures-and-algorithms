@@ -5,10 +5,12 @@ Write out code as part of your whiteboard process.
 ## Feature Tasks
 
 Create a new class called pseudo queue.
+
     - Do not use an existing Queue.
     - Instead, this PseudoQueue class will implement our standard queue interface (the two methods listed below),
     - Internally, utilize 2 Stack instances to create and manage the queue
 Methods:
+
     - enqueue
         - Arguments: value
         - Inserts a value into the PseudoQueue, using a first-in, first-out approach.
@@ -18,6 +20,8 @@ Methods:
 **NOTE:** The Stack instances have only push, pop, and peek methods. You should use your own Stack implementation. Instantiate these Stack objects in your PseudoQueue constructor.
 
 ## Approach & Efficiency
+
+Using of the stack class and its methods, conditionals, loops and exceptions.
 
 The time complexity of the enqueue and dequeue operations in this implementation is O(n), where n is the number of elements in the PseudoQueue. This is because in the enqueue operation, we need to move all elements from stack1 to stack2 (n operations), and in the dequeue operation, we simply pop from stack1 (1 operation). The while loops for moving elements between the stacks contribute to the linear time complexity.
 

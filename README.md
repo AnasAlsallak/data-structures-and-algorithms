@@ -20,7 +20,7 @@ This where you can find my solutions for Code 401 - Advanced Software Developmen
 | CC 06     | [CC 06](./linked_list_insertions/README.md) |
 | CC 08     | [CC 08](./linked_list_zip/README.md) |
 | CC 10     | [CC 10](./stack_and_queue/README.md) |
-| CC 11     | [CC 11](.//README.md) |
+| CC 11     | [CC 11](./stack_queue_pseudo/README.md) |
 | CC 12     | [CC 12](.//README.md) |
 | CC 13     | [CC 13](.//README.md) |
 | CC 14     | [CC 14](.//README.md) |
