@@ -9,30 +9,30 @@ class BinaryTree:
     def __init__(self):
         self.root = None
 
-    def preorder_traversal(self, node):
+    def preorder(self, node):
         if node is None:
             return []
         
         result = [node.value]
-        result += self.preorder_traversal(node.left)
-        result += self.preorder_traversal(node.right)
+        result += self.preorder(node.left)
+        result += self.preorder(node.right)
         return result
 
-    def inorder_traversal(self, node):
+    def inorder(self, node):
         if node is None:
             return []
         
-        result = self.inorder_traversal(node.left)
+        result = self.inorder(node.left)
         result.append(node.value)
-        result += self.inorder_traversal(node.right)
+        result += self.inorder(node.right)
         return result
 
-    def postorder_traversal(self, node):
+    def postorder(self, node):
         if node is None:
             return []
         
-        result = self.postorder_traversal(node.left)
-        result += self.postorder_traversal(node.right)
+        result = self.postorder(node.left)
+        result += self.postorder(node.right)
         result.append(node.value)
         return result
 
@@ -40,8 +40,8 @@ class BinaryTree:
 class BinarySearchTree(BinaryTree):
     def add(self, value):
         new_node = Node(value)
-        
-        if self.root is None:
+    
+        if self.r oot is None:
             self.root = new_node
         else:
             current = self.root
@@ -53,14 +53,19 @@ class BinarySearchTree(BinaryTree):
                         break
                     else:
                         current = current.left
-                else:
+                elif value > current.value:
                     if current.right is None:
                         current.right = new_node
                         break
                     else:
                         current = current.right
+                else:
+                    raise ValueError("Node with the same value already exists in the Binary Search Tree.")
 
     def contains(self, value):
+        if self.root is None:
+            raise ValueError("Binary Search Tree is empty.")
+
         current = self.root
         
         while current:
