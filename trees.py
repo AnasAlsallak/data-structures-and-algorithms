@@ -41,7 +41,7 @@ class BinarySearchTree(BinaryTree):
     def add(self, value):
         new_node = Node(value)
     
-        if self.r oot is None:
+        if self.root is None:
             self.root = new_node
         else:
             current = self.root
