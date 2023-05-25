@@ -35,7 +35,7 @@ Create a new branch called k-ary-tree, and, using the resources available to you
 
 ## Approach & Efficiency
 
-Using of the deque class and its methods, conditionals, loops.
+Using of the classs and its methods, conditionals, loops.
 
 Here's the list of the time and space complexity for the methods in the provided code:
 

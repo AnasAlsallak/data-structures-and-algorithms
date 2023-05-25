@@ -23,6 +23,10 @@ Write out code as part of your whiteboard process.
 
 If a cat or dog isn’t preferred, return whichever animal has been waiting in the shelter the longest.
 
+## Whiteboard Process
+
+![Whiteboard 13](../assets/Wireframe-13.jpg "whiteboard")
+
 ## Approach & Efficiency
 
 Using of the deque class and its methods, conditionals, loops.
@@ -39,4 +43,4 @@ The space complexity is also O(1) as the amount of additional space used does no
 
 ![Run](../assets/run11.JPG "run")
 
-[Move to CC 13](..//README.md) | [Previous](../stack_queue_pseudo/README.md)
+[Move to CC 13](../stack-queue-brackets/README.md) | [Previous](../stack_queue_pseudo/README.md)

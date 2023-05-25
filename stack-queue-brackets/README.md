@@ -1,31 +1,26 @@
-# Code Challenge: Class 12
+# Code Challenge: Class 13
 
 Write out code as part of your whiteboard process.
 
 ## Feature Tasks
 
-- Create a class called AnimalShelter which holds only dogs and cats.
-- The shelter operates using a first-in, first-out approach.
-- Implement the following methods:
+- Write a function called validate brackets
+- Arguments: string
+- Return: boolean
+  - representing whether or not the brackets in the string are balanced
+- There are 3 types of brackets:
 
-        - enqueue
-            - Arguments: animal
-            - animal can be either a dog or a cat object.
-            - It must have a species property that is either "cat" or "dog"
-            - It must have a name property that is a string.
-        - dequeue
-            - Arguments: pref
-            - pref can be either "dog" or "cat"
-            - Return: either a dog or a cat, based on preference.
-            - If pref is not "dog" or "cat" then return null.
+  - Round Brackets : ()
+  - Square Brackets : []
+  - Curly Brackets : {}
 
-## Stretch Goal
+## Whiteboard Process
 
-If a cat or dog isn’t preferred, return whichever animal has been waiting in the shelter the longest.
+![Whiteboard 15](../assets/Wireframe-15.jpg "whiteboard")
 
 ## Approach & Efficiency
 
-Using of the deque class and its methods, conditionals, loops.
+Using of stack class and its methods, conditionals, loops.
 
 In both methods, the time complexity is O(1) because the operations performed, such as appending to a deque, comparing timestamps, and removing elements, have constant time complexities.
 
@@ -33,10 +28,10 @@ The space complexity is also O(1) as the amount of additional space used does no
 
 ## Solution
 
-[Code](../stackQueueAnimalShelter.py)
+[Code](../stackQueueBrackets.py)
 
-[Tests](../tests/cc12_test.py)
+[Tests](../tests/cc13_test.py)
 
-![Run](../assets/run11.JPG "run")
+![Run](../assets/run13.JPG "run")
 
-[Move to CC 13](..//README.md) | [Previous](../stack_queue_pseudo/README.md)
+[Move to CC 14](..//README.md) | [Previous](../stack-queue-animal-shelter/README.md)
