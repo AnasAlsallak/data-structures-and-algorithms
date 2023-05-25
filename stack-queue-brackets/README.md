@@ -22,9 +22,8 @@ Write out code as part of your whiteboard process.
 
 Using of stack class and its methods, conditionals, loops.
 
-In both methods, the time complexity is O(1) because the operations performed, such as appending to a deque, comparing timestamps, and removing elements, have constant time complexities.
-
-The space complexity is also O(1) as the amount of additional space used does not depend on the input size and remains constant.
+- Time complexity: O(n), where n is the length of the input string. The function iterates through each character in the string once.
+- Space complexity: O(n), where n is the length of the input string.The maximum space used by the stack is proportional to the number of opening brackets in the string.
 
 ## Solution
 
