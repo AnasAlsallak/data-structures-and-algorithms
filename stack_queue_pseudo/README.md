@@ -19,10 +19,6 @@ Methods:
         - Extracts a value from the PseudoQueue, using a first-in, first-out approach.
 **NOTE:** The Stack instances have only push, pop, and peek methods. You should use your own Stack implementation. Instantiate these Stack objects in your PseudoQueue constructor.
 
-## Whiteboard Process
-
-![Whiteboard 12](../assets/Wireframe-12.jpg "whiteboard")
-
 ## Approach & Efficiency
 
 Using of the stack class and its methods, conditionals, loops and exceptions.
@@ -39,4 +35,4 @@ The space complexity of the PseudoQueue implementation is O(n), where n is the n
 
 ![Run](../assets/run10.JPG "run")
 
-[Move to CC 12](../stack-queue-animal-shelter/README.md) | [Previous](../stack_and_queue/README.md)
+[Move to CC 12](..//README.md) | [Previous](../stack_and_queue/README.md)

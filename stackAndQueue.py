@@ -1,14 +1,11 @@
-#Node class
 class Node:
     def __init__(self, value):
         self.value = value
         self.next = None
 
-# Stack class 
 class Stack:
     def __init__(self):
         self.top = None
-        self.size = 0
 
     def push(self, value):
         new_node = Node(value)
@@ -17,14 +14,12 @@ class Stack:
         else:
             new_node.next = self.top
             self.top = new_node
-        self.size += 1
 
     def pop(self):
         if not self.top:
             raise Exception("Stack is empty")
         value = self.top.value
         self.top = self.top.next
-        self.size -= 1
         return value
 
     def peek(self):
@@ -35,10 +30,7 @@ class Stack:
     def is_empty(self):
         return not self.top
 
-    def __len__(self):
-        return self.size
 
-# Queue class
 class Queue:
     def __init__(self):
         self.front = None
