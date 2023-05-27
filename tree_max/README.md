@@ -30,4 +30,4 @@ Using of stack class and its methods, conditionals, recursion.
 
 ![Run](../assets/run15.JPG "run")
 
-[Move to CC 17](..//README.md) | [Previous](../tree/README.md)
+[Move to CC 17](../tree-breadth-first/README.md) | [Previous](../tree/README.md)
