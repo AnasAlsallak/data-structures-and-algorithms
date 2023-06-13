@@ -30,4 +30,4 @@ Using of tree class and its methods, conditionals, loops.
 
 ![Run](../assets/run16.JPG "run")
 
-[Move to CC 18](..//README.md) | [Previous](../tree_max/README.md)
+[Move to CC 26](../sorting/insertion/README.md) | [Previous](../tree_max/README.md)
