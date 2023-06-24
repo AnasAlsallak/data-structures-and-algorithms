@@ -30,7 +30,10 @@ This where you can find my solutions for Code 401 - Advanced Software Developmen
 | CC 15     | [CC 15](./trees/README.md) |
 | CC 16     | [CC 16](./tree-max/README.md) |
 | CC 17     | [CC 17](./tree-breadth-first/README.md) |
-| CC 17     | [CC 26](./sorting/insertion/README.md) |
+| CC 26     | [CC 26](./sorting/insertion/README.md) |
+| CC 27     | [CC 27](./sorting/merge/README.md) |
+| CC 28     | [CC 28](./sorting/insertion/README.md) |
+| CC 29     | [CC 29](./sorting/insertion/README.md) |
 
 > **Note:** This main page will be updated accordingly.
 

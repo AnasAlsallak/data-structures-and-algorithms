@@ -34,7 +34,7 @@ the 3red iteration would have [4,8,23,42] as the sorted array and (16) as the in
 
 [4,8,16,23,42]
 
-Pass 4:
+Pass 5:
 
 the 3red iteration would have [4,8,16,23,42] as the sorted array and (15) as the input it will also compare it with the element at index (0) which is now (4) and since it is greater than (4) it will enter the first loop and the index is increased by (1) so that we can compare it with the 2nd element (8) it is greater and one more time with (16) which is less than so it exits the first loop and the second loop cond. is true since 2 < 5 so it stores the (16) on a temp var. and assert (15) as the new index (2) and (16) in its loc. then increase the index i by 1 and does the same for (16,23) and then (23,42) then it exits the loop and the value (42) is appended to the end of the array so the: 
  :
