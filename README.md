@@ -32,7 +32,7 @@ This where you can find my solutions for Code 401 - Advanced Software Developmen
 | CC 17     | [CC 17](./tree-breadth-first/README.md) |
 | CC 26     | [CC 26](./sorting/insertion/README.md) |
 | CC 27     | [CC 27](./sorting/merge/README.md) |
-| CC 28     | [CC 28](./sorting/insertion/README.md) |
+| CC 28     | [CC 28](./sorting/compersions/compersions.py) |
 | CC 29     | [CC 29](./sorting/insertion/README.md) |
 
 > **Note:** This main page will be updated accordingly.
