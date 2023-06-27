@@ -34,6 +34,7 @@ This where you can find my solutions for Code 401 - Advanced Software Developmen
 | CC 27     | [CC 27](./sorting/merge/README.md) |
 | CC 28     | [CC 28](./sorting/compersions/compersions.py) |
 | CC 29     | [CC 29](./sorting/insertion/README.md) |
+| CC 30     | [CC 30](./hashtable/README.md) |
 
 > **Note:** This main page will be updated accordingly.
 
