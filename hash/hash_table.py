@@ -1,4 +1,4 @@
-from chain import LinkedList
+from .chain import LinkedList
 
 class HashTable ():
     def __init__(self,size=3):
@@ -48,8 +48,9 @@ class HashTable ():
 
     def has (self, key):
         hashed_key = self.custom_hash(key)
-        
-        if isinstance(self.map[hashed_key], LinkedList):
+        if self.map[hashed_key] is None:
+            return False
+        elif isinstance(self.map[hashed_key], LinkedList):
             current_node = self.map[hashed_key].head
 
             while current_node:
@@ -73,7 +74,19 @@ class HashTable ():
             elif item is not None:
                 arr.append(item[0])
         return arr
-
+    
+    def __str__(self) -> str:
+        st_rep = ""
+        for index, item in enumerate(self.map):
+            if isinstance(item, LinkedList):
+                current_node = item.head
+                while current_node:
+                    st_rep = f"Hashed Key: {index}, Key: {current_node.data[0]}, Value: {current_node.data[1]}\n"
+                    print(st_rep)
+                    current_node = current_node.next
+            elif item is not None:
+                st_rep = f"Hashed Key: {index}, Key: {item[0]}, Value: {item[1]}\n"
+                print(st_rep)
 
 if __name__ == "__main__":
     hashtable = HashTable()
