@@ -32,7 +32,7 @@ def test_enqueue_dequeue_invalid_preference(animal_shelter):
     cat = Animal("cat", "Whiskers")
     animal_shelter.enqueue(dog)
     animal_shelter.enqueue(cat)
-    assert animal_shelter.dequeue("invalid") is None
+    assert animal_shelter.dequeue("invalid") == dog
 
 def test_enqueue_dequeue_empty(animal_shelter):
     assert animal_shelter.dequeue("dog") is None

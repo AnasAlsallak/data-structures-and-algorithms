@@ -1,4 +1,4 @@
-from hashtable import HashTable
+from hash.hash_table import HashTable
 import pytest
 
 def test_set_and_get():
