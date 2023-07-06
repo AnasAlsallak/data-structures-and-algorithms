@@ -10,15 +10,10 @@ Return: string
 
 ## Approach & Efficiency
 
-Classes, methods, loops, conditionals.
+Classes, methods, recursion, conditionals.
 
-Time complexity: O(n) where n is the number of words in the book.
-Space complexity: O(m) where m is the number of unique words in the book.
+In short-terms the function has a time complexity of O(n) and a space complexity of O(n), where n is the total number of nodes in both trees.
 
 ## Solution
 
-![run 31](../assets/run31.JPG "run example")
 
-test:
-
-![test 31](../assets/test31.JPG "test")
