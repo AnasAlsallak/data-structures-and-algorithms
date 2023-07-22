@@ -16,6 +16,6 @@ Space complexity: O(m) where m is the number of unique words in the book.
 
 ## Solution
 
-[code](./tree_intersection/tree_intersection.py)
+[code](./tree_intersection.py)
 
-[test](./tree_intersection/cc32_test.py)
+[test](./cc32_test.py)
