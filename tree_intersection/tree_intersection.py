@@ -12,31 +12,25 @@ def tree_intersection(tree1, tree2):
     Returns:
         A set of values found in both trees.
     """
-    values = set()
-    hashtable = HashTable()
-
-    def traverse(node):
-
+    def traverse_and_collect(node, values_set):
         if node:
-            hashtable.set(str(node.value), node.value)
+            values_set.add(node.value)
+            traverse_and_collect(node.left, values_set)
+            traverse_and_collect(node.right, values_set)
 
-            if node.left:
-                traverse(node.left)
+    # Collect values from both trees in separate sets
+    values_tree1 = set()
+    values_tree2 = set()
 
-            if node.right:
-                traverse(node.right)
+    if tree1 is not None:
+        traverse_and_collect(tree1.root, values_tree1)
 
-    traverse(tree1.root)
+    if tree2 is not None:
+        traverse_and_collect(tree2.root, values_tree2)
 
-    def traverse2(node):
+    # Find the intersection of values between the two sets
+    return values_tree1.intersection(values_tree2)
 
-        if node:
-            if hashtable.has(str(node.value)):
-                values.add(node.value)
-
-    traverse2(tree2.root)
-
-    return values
 
 if __name__ == "__main__":
     tree1 = BinaryTree()
