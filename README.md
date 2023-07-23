@@ -38,6 +38,7 @@ This where you can find my solutions for Code 401 - Advanced Software Developmen
 | CC 31     | [CC 31](./hashmap-repeated-word/README.md) |
 | CC 32     | [CC 32](./tree_intersection/README.md) |
 | CC 33     | [CC 33](./hashmap_left_join/README.md) |
+| CC 34     | [CC 34](./mock_interview5/README.md) |
 
 > **Note:** This main page will be updated accordingly.
 
