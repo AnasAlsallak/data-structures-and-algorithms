@@ -1,4 +1,4 @@
-# Code Challenge 30: Implementation: Hash Tables
+# Code Challenge 35: Implementation: graphs
 
 Implement your own Graph. The graph should be represented as an adjacency list, and should include the following methods:
 
@@ -30,7 +30,7 @@ size
 
 Classes, loops, conditionals, bracket notation.
 
-Sure! Let's analyze the time and space complexities of the various operations in the given graph implementation:
+Let's analyze the time and space complexities of the various operations in the given graph implementation:
 
 1. **Time Complexity:**
 

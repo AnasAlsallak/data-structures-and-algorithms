@@ -45,4 +45,42 @@ class   Graph :
                 output += f'  {edge.vertex.value}, {edge.weight}'
                 output += '\n'
                 
-        return output    
+        return output 
+
+    def breadth_first(self, vertex):
+        if vertex is None:
+            raise TypeError("Input vertex cannot be None")
+
+        queue = []
+        visited = set()
+
+        queue.append(vertex)
+        visited.add(vertex)
+
+        while len(queue) > 0:
+            current = queue.pop(0)
+
+            for edge in self.adjacency_list[current]:
+                if edge.vertex not in visited:
+                    visited.add(edge.vertex)
+                    queue.append(edge.vertex)
+
+        return visited
+    
+
+graph = Graph()
+
+vertex_a = graph.add_vertex("A")
+vertex_b = graph.add_vertex("B")
+vertex_c = graph.add_vertex("C")
+vertex_d = graph.add_vertex("D")
+
+graph.add_edge(vertex_a, vertex_b)
+graph.add_edge(vertex_a, vertex_c)
+graph.add_edge(vertex_c, vertex_d)
+
+starting_vertex = vertex_a
+result = graph.breadth_first(starting_vertex)
+
+print(result)  
+
