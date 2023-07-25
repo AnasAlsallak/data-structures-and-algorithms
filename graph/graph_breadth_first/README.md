@@ -7,6 +7,10 @@ Write the following method for the Graph class:
     Return: A collection of nodes in the order they were visited.
     Display the collection
 
+## Whiteboard
+
+![Whiteboard36](/assets/Wireframe36.jpg "Whiteboard36")
+
 ## Approach & Efficiency
 
 Classes, loops, conditionals.
