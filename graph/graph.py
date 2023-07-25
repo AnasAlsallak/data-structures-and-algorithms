@@ -50,6 +50,9 @@ class   Graph :
     def breadth_first(self, vertex):
         if vertex is None:
             raise TypeError("Input vertex cannot be None")
+        
+        if vertex not in self.adjacency_list:
+            raise KeyError("Input vertex not in graph")
 
         queue = []
         visited = set()
