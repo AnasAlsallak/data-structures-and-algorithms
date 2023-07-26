@@ -26,7 +26,7 @@ class   Graph :
         self.adjacency_list[node2].append(edge2)
         
     def get_vertices(self) :
-        return self.adjacency_list.keys()
+        return list(self.adjacency_list.keys())
 
     def get_neighbors(self, node) :
         return self.adjacency_list[node]
@@ -67,6 +67,29 @@ class   Graph :
                 if edge.vertex not in visited:
                     visited.add(edge.vertex)
                     queue.append(edge.vertex)
+
+        return visited
+    
+    def depth_first (self, vertex):
+        if vertex is None:
+            raise TypeError("Input vertex cannot be None")
+        
+        if vertex not in self.adjacency_list:
+            raise KeyError("Input vertex not in graph")
+
+        stack = []
+        visited = set()
+
+        stack.append(vertex)
+        visited.add(vertex)
+
+        while len(stack) > 0:
+            current = stack.pop()
+
+            for edge in self.adjacency_list[current]:
+                if edge.vertex not in visited:
+                    visited.add(edge.vertex)
+                    stack.append(edge.vertex)
 
         return visited
     

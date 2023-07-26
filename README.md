@@ -41,6 +41,7 @@ This where you can find my solutions for Code 401 - Advanced Software Developmen
 | CC 34     | [CC 34](./mock_interview5/README.md) |
 | CC 35     | [CC 35](./graph/README.md) |
 | CC 36     | [CC 36](./graph/graph_breadth_first/README.md) |
+| CC 36     | [CC 37](./graph-business-trip/README.md) |
 
 > **Note:** This main page will be updated accordingly.
 
